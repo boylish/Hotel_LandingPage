@@ -5,7 +5,7 @@ import hotel_room from "../../assets/hotel_room.jpg";
 import hotel_dining2 from "../../assets/hotel_dining2.jpg";
 
 const Page6 = () => {
-  // Animation variants
+  
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -31,7 +31,7 @@ const Page6 = () => {
 
   return (
     <div className="h-[150vh] py-8 sm:py-12 px-4 sm:px-8 lg:px-16 flex flex-col justify-evenly items-center bg-white overflow-hidden">
-      {/* Header Section */}
+  
       <motion.div
         initial="hidden"
         animate="visible"
@@ -57,7 +57,7 @@ const Page6 = () => {
         </motion.h1>
       </motion.div>
 
-      {/* Main Content */}
+     
       <motion.div
         className="mt-8 sm:mt-12 flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8 lg:gap-10 w-full max-w-7xl"
         initial="hidden"
@@ -65,7 +65,7 @@ const Page6 = () => {
         variants={containerVariants}
         viewport={{ once: true, margin: "-100px" }}
       >
-        {/* Images Column */}
+    
 
         <div className="w-full lg:w-1/2 h-[450px] overflow-y-auto space-y-4 pr-2 scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] p-2 rounded-xl shadow-md">
           {[hotel_payment, hotel_room, hotel_dining2].map((img, idx) => (
@@ -87,7 +87,7 @@ const Page6 = () => {
           ))}
         </div>
 
-        {/* Text Content */}
+      
         <motion.div
           className="w-full lg:w-1/2 px-2 sm:px-4 lg:px-6"
           variants={{
