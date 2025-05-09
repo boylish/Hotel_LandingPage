@@ -32,7 +32,7 @@ const Page1 = () => {
         ))}
       </Slider>
 
-      {/* Overlay Text with Framer Motion */}
+      
       <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50 z-10 text-center px-4">
         <motion.h1
           className="text-white text-3xl sm:text-5xl md:text-7xl font-bold"
