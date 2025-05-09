@@ -7,9 +7,9 @@ import { FaArrowRight } from "react-icons/fa";
 const Page5 = () => {
   return (
     <div className="min-h-screen relative bg-[#f4efe7] flex flex-col justify-center items-center p-4 sm:p-6">
-      {/* Mobile: Stack vertically */}
+      
       <div className="flex flex-col w-full h-auto gap-2 sm:gap-3 md:hidden">
-        {/* Gym Image */}
+       
         <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] group">
           <img
             src={hotel_gym}
@@ -25,7 +25,7 @@ const Page5 = () => {
           </div>
         </div>
 
-        {/* Dining Image */}
+        
         <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] group">
           <img
             src={hotel_dining2}
@@ -41,7 +41,7 @@ const Page5 = () => {
           </div>
         </div>
 
-        {/* Spa Image */}
+       
         <div className="relative aspect-[4/3] w-full overflow-hidden rounded-lg transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] group">
           <img
             src={hotel_spa}
@@ -60,9 +60,9 @@ const Page5 = () => {
         </div>
       </div>
 
-      {/* Desktop: Horizontal layout */}
+     
       <div className="hidden md:flex md:h-[80vh] lg:h-[85vh] xl:h-[90vh] w-full gap-2 lg:gap-3 overflow-hidden">
-        {/* Gym Image */}
+       
         <div className="relative flex-1 overflow-hidden rounded-lg transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] hover:flex-[2] group">
           <img
             src={hotel_gym}
@@ -78,7 +78,7 @@ const Page5 = () => {
           </div>
         </div>
 
-        {/* Dining Image */}
+       
         <div className="relative flex-1 overflow-hidden rounded-lg transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] hover:flex-[2] group">
           <img
             src={hotel_dining2}
@@ -94,7 +94,7 @@ const Page5 = () => {
           </div>
         </div>
 
-        {/* Spa Image */}
+        
         <div className="relative flex-1 overflow-hidden rounded-lg transition-all duration-500 ease-[cubic-bezier(0.33,1,0.68,1)] hover:flex-[2] group">
           <img
             src={hotel_spa}
@@ -114,12 +114,12 @@ const Page5 = () => {
       </div>
       <div className="flex relative pt-10 sm:absolute sm:pt-60  sm:text-white text-black z-100 justify-center items-center mt-6 md:mt-8">
         <div className="group relative inline-flex items-center justify-center border-2 border-black sm:border-white rounded-full px-6 py-3 md:px-10 md:py-5 transition-all duration-500 ease-in-out backdrop-blur-3xl overflow-hidden hover:w-16 hover:h-16 hover:px-0 hover:py-0 hover:bg-blue-900">
-          {/* Text - Hidden on hover */}
+         
           <span className="text-sm md:text-base text-black sm:text-white group-hover:opacity-0 transition-opacity duration-300 ease-in-out">
             Spa & Wellness
           </span>
 
-          {/* Arrow Icon - Visible on hover */}
+          
           <FaArrowRight className="absolute text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out" />
         </div>
       </div>
