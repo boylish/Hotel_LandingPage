@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 
-// Animation variants
+
 const containerVariants = {
   hidden: { opacity: 0 },
   visible: {
@@ -95,17 +95,17 @@ const Page2 = () => {
           whileTap={{ scale: 0.95 }}
           variants={itemVariants}
         >
-          {/* Text - Hidden on hover */}
+        
           <span className="text-sm md:text-base text-blue-900 group-hover:opacity-0 transition-opacity duration-300 ease-in-out">
             Hotel
           </span>
 
-          {/* Arrow Icon - Visible on hover */}
+    
           <FaArrowRight className="absolute text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out" />
         </motion.div>
       </motion.div>
 
-      {/* Slider Section */}
+    
       <motion.div
         className="flex items-center justify-center px-4 md:px-0"
         initial="hidden"
@@ -136,7 +136,7 @@ const Page2 = () => {
             </div>
           </Slider>
 
-          {/* Overlay text on the slider */}
+         
           <div className="absolute inset-0 flex items-center justify-center bg-black/30 z-10">
             <motion.div
               className="border-1 p-2 md:p-4 backdrop-blur-sm md:backdrop-blur-2xl"
